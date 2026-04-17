@@ -1,0 +1,7 @@
+mathias@mathias-VirtualBox:~/Documentos/dev/wt-feature-b$ git worktree remove ../wt-feature-a
+mathias@mathias-VirtualBox:~/Documentos/dev/wt-feature-b$ git worktree list
+/home/mathias/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-matchias  c77524b [main]
+/home/mathias/Documentos/dev/wt-feature-b                                                     0e9691f [feature-b]
+
+
+git worktree remove elimina un worktree activo que ya no se usa, borrando su directorio de trabajo. En cambio git worktree prune limpia referencias antiguas que ya no existen en el sistema. Remove borra directamente, prune solo limpia “restos” de worktrees antiguos.

@@ -1,0 +1,8 @@
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-matchias$ git branch
+  feature-a
+* main
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-matchias$ git log --oneline --all
+ce85dca (feature-a) Añade funcionalidad A
+62e7d0f (HEAD -> main) Commit inicial en main
+b5907e8 (origin/main, origin/HEAD) add deadline
+deb1ad7 Initial commit

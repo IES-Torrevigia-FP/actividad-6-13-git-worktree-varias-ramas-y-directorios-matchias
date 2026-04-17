@@ -1,0 +1,16 @@
+mathias@mathias-VirtualBox:~/Documentos/dev/wt-feature-b$ cd ../actividad-6-13-git-worktree
+git worktree list
+git log --oneline --all
+bash: cd: ../actividad-6-13-git-worktree: No existe el archivo o el directorio
+/home/mathias/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-matchias  c77524b [main]
+/home/mathias/Documentos/dev/wt-feature-a                                                     4742bc7 [feature-a]
+/home/mathias/Documentos/dev/wt-feature-b                                                     0e9691f [feature-b]
+0e9691f (HEAD -> feature-b) Añade funcionalidad B en rama feature-b
+c77524b (main) Actualiza README en main
+4742bc7 (feature-a) Amplía detalles de funcionalidad A
+ce85dca Añade funcionalidad A
+62e7d0f Commit inicial en main
+b5907e8 (origin/main, origin/HEAD) add deadline
+deb1ad7 Initial commit
+
+La diferencia es que con git branch solo creas la rama, pero tienes que cambiarte manualmente al directorio o hacer checkout. En cambio con git worktree add -b creas la rama y su carpeta de trabajo directamente, lista para usar, lo que ahorra pasos.

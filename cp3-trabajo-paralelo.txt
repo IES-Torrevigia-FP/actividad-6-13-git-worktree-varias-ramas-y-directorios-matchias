@@ -1,0 +1,11 @@
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-matchias$ git worktree list
+git log --oneline --all
+/home/mathias/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-matchias  c77524b [main]
+/home/mathias/Documentos/dev/wt-feature-a                                                     4742bc7 [feature-a]
+c77524b (HEAD -> main) Actualiza README en main
+4742bc7 (feature-a) Amplía detalles de funcionalidad A
+ce85dca Añade funcionalidad A
+62e7d0f Commit inicial en main
+b5907e8 (origin/main, origin/HEAD) add deadline
+deb1ad7 Initial commit
+Los worktrees permiten trabajar en paralelo en ramas distintas sin tener que cambiar de rama en el mismo directorio. Así puedo hacer cambios en feature-a en una carpeta y en main en otra, sin que se mezclen ni tenga que estar haciendo checkout constantemente

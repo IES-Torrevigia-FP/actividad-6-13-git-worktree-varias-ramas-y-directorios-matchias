@@ -1,0 +1,5 @@
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-matchias$ git worktree list
+/home/mathias/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-matchias  62e7d0f [main]
+/home/mathias/Documentos/dev/wt-feature-a                                                     ce85dca [feature-a]
+
+Con git worktree list puedo ver todos los directorios de trabajo que tengo conectados al mismo repositorio. Esto me ayuda a entender que hay una carpeta principal y otra secundaria (wt-feature-a) trabajando en ramas diferentes, pero usando el mismo repo base
